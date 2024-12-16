@@ -1,0 +1,52 @@
+ryan dahl developed nodejs (v8engin + c++)
+removed some changes like(ui) from v8 engin 
+
+node js is a runtime environment . backend ,runs on server
+can execute multiple request at a time ,asyncronizations programming
+example (
+asp or php(handel one request at a time)
+node js (handel multipel request at a tiem,)
+iets asume there are 5 customers in a resturent the waiter1(nodejs) will collect the order one by one and give to kitchen 
+.waiter2(asp or php) collect the order of 
+1st customer and give the order to kitchen and server the food to the customer after compliting go to other 
+
+)
+http is the built in moduel in nodejs
+
+server :
+which brovide,data,services and resources to the computers 
+
+useful for dynamic application 
+authentication ,authorization
+Repl 
+r-raed,e-eval,p-print,l-loop 
+fs module 
+fs -file system 
+create,read,rename,delete files can perform dynamically
+
+nodejs app runs in a single process,without creating a new thread every request ,call backfunction ,
+have more than 7000 modules 
+lightweight ,easily handle the incoming traffice
+  
+url moduel ::
+used for converting the url into readable parts
+  
+npm is package  manager for node js  
+
+we can create our own scripts in packages scetion(scripts)
+//  "keerthan":"node beginner.js" 
+
+modules :
+we can create a module and export it 
+
+asyschronus(non blocking operations) exports a call back function( or an imtimation) should be given (writefile.js) and write the result
+syschronus(blocking operations) directly write the result 
+
+
+url ::
+http methods:
+get : get the data from the server
+,post: when u want to send and mutate(change) some data in server
+,put: upload some thing (like upolad image )
+,patch: chanege the data
+,delete; delete the data 
