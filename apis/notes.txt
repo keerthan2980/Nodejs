@@ -1,0 +1,2 @@
+Yes, exactly! In simple terms, API is like the language or protocol that allows two different systems to communicate, 
+even if they operate differently or "speak different languages
