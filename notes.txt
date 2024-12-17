@@ -50,3 +50,21 @@ get : get the data from the server
 ,put: upload some thing (like upolad image )
 ,patch: chanege the data
 ,delete; delete the data 
+
+versioning in nodee js
+
+^4.21.2 
+
+3rd psrt(2)--> minor changes ( if required updata)
+2nd part(21)--> major bug fix ( should be updata)
+1st part(4)--> current version 
+^(number) should be stay in the 4(number) version only if update occur aslo not to go and we can install the versiom from 4-4.9 
+
+
+Rest apis:(rest full api) have some rules
+Api means communications
+works on server and client architcture
+
+http headers are the meta data 
+like address on a letter(post)
+header cary some information for the request and response 

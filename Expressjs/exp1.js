@@ -6,6 +6,9 @@ app.get("/",(request,response)=>{
 })
 
 app.get("/about",(request,response)=>{
+    //response.setHeader("Myname","keerthan") // buit in headercd
+    response.setHeader("X-Myname","keerthan") // custome header 
+    console.log(request.headers);// header request
     return response.send(" hello from about page");
 })
 
